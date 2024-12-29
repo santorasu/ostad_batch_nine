@@ -58,8 +58,7 @@ void main() {
   print("Age: ${st1.address}");
   print("Average Score: ${st1.cal_Average()}");
   print("\n");
-  Teacher teacher1 =
-      Teacher("Farhan", 22, "Dhaka", "T4343", ['math', 'English', 'Bangla']);
+  Teacher teacher1 = Teacher("Farhan", 22, "Dhaka", "T4343", ['math', 'English', 'Bangla']);
 
   print("Teacher Information");
   teacher1.displayRole();
