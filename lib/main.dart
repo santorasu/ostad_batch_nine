@@ -65,5 +65,5 @@ void main() {
   print("Name: ${teacher1.name}");
   print("Name: ${teacher1.age}");
   print("Name: ${teacher1.address}");
-  teacher1.displayCousesTought();
+  teacher1.displayCoursesTought();
 }

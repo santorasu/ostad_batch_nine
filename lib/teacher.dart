@@ -15,7 +15,7 @@ class Teacher extends Person {
     print("Role: Teacher");
   }
 
-  void displayCousesTought() {
+  void displayCoursesTought() {
     print("Course Taught: ");
     for (String course in coursesTaught) {
       print("- $course");
